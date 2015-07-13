@@ -10,7 +10,7 @@
     ...ect
 
 ## INSTALLATION
-### 1) follow the pathogen installation and runtime path manipulation instructions
+### 1) Install and configure pathogen
 synopsis:
 
     mkdir -p ~/.vim/autoload ~/.vim/bundle && \
@@ -19,6 +19,6 @@ Add this to your vimrc:
 
     execute pathogen#infect()
            
-### 2) download cursor toggler
+### 2) Download cursor toggler
     cd ~/.vim/bundle && \
     git clone https://github.com/kilojoules/Vim_Cursor_Toggler
