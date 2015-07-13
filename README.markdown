@@ -11,7 +11,7 @@
 
 ## INSTALLATION
 ### 1) Install and configure pathogen
-synopsis:
+#### synopsis:
 
     mkdir -p ~/.vim/autoload ~/.vim/bundle && \
     curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
