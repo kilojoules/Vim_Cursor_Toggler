@@ -11,13 +11,10 @@
 
 ## INSTALLATION
 ### 1) Install and configure pathogen
-#### synopsis:
 
     mkdir -p ~/.vim/autoload ~/.vim/bundle && \
     curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-Add this to your vimrc:
-
-    execute pathogen#infect()
+    echo "execute pathogen#infect()" >> ~/.vimrc
            
 ### 2) Download cursor toggler
     cd ~/.vim/bundle && \
