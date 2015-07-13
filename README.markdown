@@ -4,7 +4,7 @@
 This plugin allows for users to toggle between multiple cursor positions in vim
 
 ## USAGE
-    ctrl+c = mark cursor number x, where x increases sequentially starting at one
+    [num] ctrl+a = mark cursor number [num] (default is 1)
     F1 = go to cursor 1
     F2 = go to cursor 2
     ...ect
