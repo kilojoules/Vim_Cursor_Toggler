@@ -1,0 +1,4 @@
+usage: ctrl+c = mark cursor number x, where x increases sequentially starting at one
+       F1 = go to cursor 1
+       F2 = go to cursor 2
+       ect
