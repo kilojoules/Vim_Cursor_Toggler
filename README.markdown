@@ -1,13 +1,13 @@
 # Vim Cursor Toggler
 
 ## SUMMARY
-    This plugin allows for users to toggle between multiple cursor positions in vim
+This plugin allows for users to toggle between multiple cursor positions in vim
 
 ## USAGE
-    ctrl+c = mark cursor number x, where x increases sequentially starting at one
-    F1 = go to cursor 1
-    F2 = go to cursor 2
-    ...ect
+ctrl+c = mark cursor number x, where x increases sequentially starting at one
+F1 = go to cursor 1
+F2 = go to cursor 2
+...ect
 
 ## INSTALLATION
 ### 1) Install and configure pathogen
