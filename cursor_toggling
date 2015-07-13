@@ -1,0 +1,24 @@
+syntax on
+execute pathogen#infect()
+filetype plugin indent on
+
+let g:cursor_position_list = []
+
+function! Add_cursor_position()
+   call add(g:cursor_position_list,getpos("."))
+endfunction
+
+function! Get_cursor_pos(num)
+   call setpos('.',g:cursor_position_list[a:num])
+endfunction
+
+map <C-C> :call Add_cursor_position()
+map <C-C> <1> :call Get_cursor_pos(0)
+map <C-R> <2> :call Get_cursor_pos(1)
+map <C-R> <3> :call Get_cursor_pos(2)
+map <C-R> <4> :call Get_cursor_pos(3)
+map <C-R> <5> :call Get_cursor_pos(4)
+map <C-R> <6> :call Get_cursor_pos(5)
+map <C-R> <7> :call Get_cursor_pos(6)
+map <C-R> <8> :call Get_cursor_pos(7)
+map <C-R> <9> :call Get_cursor_pos(8)
